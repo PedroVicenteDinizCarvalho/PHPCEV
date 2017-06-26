@@ -1,0 +1,21 @@
+$cor_fundo: green;
+$cor_fonte: black;
+body{
+	background-color: $cor_fundo;
+	> .Container{
+		color: $cor_fonte;
+		font-size: 50px;
+		font-family: Arial;
+		position: relative;
+		top:50px; 
+		left: 200px;
+		width: 1000px;
+		height: 500px;
+		background-color: yellow;
+		text-align: center;
+	
+		> h2{
+			font-size: 70px;
+		}  
+	}
+}
